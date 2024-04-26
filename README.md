@@ -22,6 +22,7 @@ Writing...
 ## Installation ROS2-humble
 
 1. Open Your Terminal  
+
     ```
         locale  # check for UTF-8
 
@@ -34,7 +35,8 @@ Writing...
     ```
 
 2. Setup Sources
-   ```
+
+   ```shell
     # Enable Ubuntu Universe repository
         sudo apt -y install software-properties-common
         sudo add-apt-repository universe
@@ -51,7 +53,8 @@ Writing...
    ```
 
 3. Install ROS2 packages
-    ```
+
+    ```shell
     # Install ROS2-humble-full
         echo "Install ROS2-humble-desktop!"
         sudo apt -y install ros-humble-desktop-full
